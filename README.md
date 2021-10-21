@@ -12,17 +12,17 @@ When asked to enter data, enter the integer form of the data. Except for the con
 
 ## Features
 1. **RSA Encrypt** -> Performs unpadded RSA encryption
-2. **RSA Decrypt (d known)** -> Decrypts RSA when private exponent d is known
-3. **RSA Decrypt (factors known)** -> Decrypts RSA when factors of the prime modulus are known
-4. **Common Modulus Attack (External)** -> Uncovers plaintext given external attacker details in a common modulus situation
-5. **Common Modulus Attack (Internal)** -> Uncovers private exponent d given internal attacker details in a common modulus situation
-6. **Small Public Exponent Attack** -> Uncovers plaintext when the public exponent is too small
-7. **Hastad's Broadcast Attack** -> Uncovers plaintext broadcasted e times using Hastad's broadcast attack
-8. **Wiener's Attack** -> Attempts to uncover private exponent d using Wiener's attack
+2. **RSA Decrypt (d known)** -> Decrypts RSA when private exponent _d_ is known
+3. **RSA Decrypt (factors known)** -> Decrypts RSA when factors of the prime modulus _N_ are known
+4. **Common Modulus Attack (External)** -> Uncovers _plaintext_ given external attacker details in a common modulus situation
+5. **Common Modulus Attack (Internal)** -> Uncovers private exponent _d_ given internal attacker details in a common modulus situation
+6. **Small Public Exponent Attack** -> Uncovers _plaintext_ when the public exponent is too small
+7. **Hastad's Broadcast Attack** -> Uncovers _plaintext_ broadcasted e times using Hastad's broadcast attack
+8. **Wiener's Attack** -> Attempts to uncover private exponent _d_ using Wiener's attack
 9. **Fermat's Factorisation** -> Attemps factorisation by Fermat's factorisation method
 10. **Twin Primes Factorisation** -> Attempts factorisaton of a product of twin primes
-11. **Extract Modulus (e known)** -> Extracts the unknown prime modulus given appropriate plaintext-ciphertext pairs when public exponent e is known
-12. **Extract Modulus (e unknown)** -> Extracts the unknown prime modulus given appropriate plaintext-ciphertext pairs when public exponent e is unknown
+11. **Extract Modulus (e known)** -> Extracts the unknown prime modulus _N_ given appropriate plaintext-ciphertext pairs when public exponent _e_ is known
+12. **Extract Modulus (e unknown)** -> Extracts the unknown prime modulus _N_ given appropriate plaintext-ciphertext pairs when public exponent _e_ is unknown
 13. **String To Long** -> Converts an ASCII string to its integer representation
 14. **Long To String** -> Converts an integer to its ASCII representation
 15. **Hex To Long** -> Converts a hexadecimal to its integer value
